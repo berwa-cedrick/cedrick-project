@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #demo{
+            display: none;
+            border: none;
+        }
+        #deli{
+            display: none;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <table border="2" cellpadding="40" id="demo">
+        <tr>
+            <th colspan="5" bgcolor="pink">L4 SOFTWARE DEVELOPMENT A</th>
+        </tr>
+        <tr>
+        <th>mon</th>
+        <th>tue</th>
+        <th>wed</th>
+        <th>thu</th>
+        <th>fri</th>
+        </tr>
+        <tr>
+            <td>math</td>
+            <td>physics</td>
+            <td>kiny</td>
+            <td>node.js</td>
+            <td>database</td>
+        </tr>
+    </table><br><br>
+    <table border="2" cellpadding="40" id="deli"><br>
+        <tr>
+            <th colspan="5" bgcolor="blue">L4 SOFTWARE DEVELOPMENT B</th>
+        </tr>
+        <tr>
+        <th>mon</th>
+        <th>tue</th>
+        <th>wed</th>
+        <th>thu</th>
+        <th>fri</th>
+        </tr>
+        <tr>
+            <td>kiny</td>
+            <td>data structure</td>
+            <td>math</td>
+            <td>php</td>
+            <td>php</td>
+        </tr>
+    </table>
+    <script>
+        let l4soda=prompt("enter your class it is A or B")
+        let cedric=document.getElementById('demo')
+        let berwa=document.getElementById('deli')
+
+        if(l4soda==='a' || l4soda==='A'){
+            cedric.style.display='block'
+        }
+        else if(l4soda==='b' || l4soda==='B'){
+            berwa.style.display='block'
+        }
+    </script>
+</body>
+</html>
